@@ -1,12 +1,15 @@
 #include <Arduino_FreeRTOS.h>
 #include <Servo.h>
-Servo ServoMotor;
+Servo ServoMotor; 
+//////////////////////////////
 
 #define RED    6
 #define GREEN 7
-int servoPin = 8;
+//////////////////////////////
 
+int servoPin = 8;
 typedef int TaskProfiler;
+//////////////////////////////
 
 TaskProfiler  RedLEDProfiler;
 TaskProfiler  GreenLEDProfiler;
